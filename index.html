@@ -3,134 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png">
-    <title>OnTech</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #13293d;
-            padding: 20px;
-            color: white;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            justify-content: center; /* Faz com que a imagem fique à esquerda e o menu à direita */
-            padding: 25px;
-            background: linear-gradient(to right, #13293d, rgb(43, 143, 168));
-        }
-
-        nav .logo {
-            height: 25px; /* Exemplo de tamanho da logo */
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-left: 20px; /* Espaçamento entre os itens do menu */
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            background: url('img/banner.jpg') no-repeat center center/cover;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #13293d;
-            text-align: center;
-        }
-
-        .hero h2 {
-            font-size: 3rem;
-            color: #f4f4f4;
-            padding: 20px;
-        }
-
-        section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        section h2 {
-            color: #13293d;
-            font-size: 2rem;
-        }
-
-        .services {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 30px;
-        }
-
-        .service {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 30%;
-        }
-
-        .service h3 {
-            color: #13293d;
-            font-size: 1.5rem;
-        }
-
-        .service p {
-            color: #666;
-        }
-
-        footer {
-            background-color: #13293d;
-            padding: 20px;
-            color: white;
-            text-align: center;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        footer a {
-            color: #00b0f0;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-        
-
-       
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>OnTech</title>  
 </head>
 <body>
    
@@ -144,11 +20,44 @@
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Sobre Nós</a></li>
             <li><a href="#">Contato</a></li>
-            <li><a href="https://sistema.ontechweb.com.br/sistema/">Login no Sistema</a></li>
+            <li><a href="https://sistema.ontechweb.com.br/sistema/" target="_blank">Login no Sistema</a></li>
         </ul>
     </nav>
 
-    <div class="hero">
+  
+    
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+        <img src="img/banner1.jpg" class="d-block w-100" alt="Imagem 1" style="height: 500px; object-fit: cover;">
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+        <img src="img/banner2.jpg" class="d-block w-100" alt="Imagem 2" style="height: 500px; object-fit: cover;">
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+        <img src="img/banner3.jpg" class="d-block w-100" alt="Imagem 3" style="height: 500px; object-fit: cover;">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </button>
+    </div>
+
+          
+    <div class="hero">      
         <h2>Soluções Inteligentes para seu Negócio</h2>
     </div>
 
@@ -179,6 +88,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    
 
 </body>
 </html>
