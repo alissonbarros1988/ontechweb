@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>OnTech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #13293d;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Faz com que a imagem fique à esquerda e o menu à direita */
+            padding: 25px;
+            background: linear-gradient(to right, #13293d, rgb(43, 143, 168));
+        }
+
+        nav .logo {
+            height: 25px; /* Exemplo de tamanho da logo */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px; /* Espaçamento entre os itens do menu */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('img/banner.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #13293d;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            color: #f4f4f4;
+            padding: 20px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #13293d;
+            font-size: 2rem;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .service {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+
+        .service h3 {
+            color: #13293d;
+            font-size: 1.5rem;
+        }
+
+        .service p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #13293d;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #00b0f0;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    
+
+       
+    </style>
+</head>
+<body>
+   
+
+    <nav>
+        
+        <img src="img/Login fundo branco.png" alt="" class="logo"> 
+        <ul>   
+               
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="https://sistema.ontechweb.com.br/sistema/">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h2>Soluções Inteligentes para seu Negócio</h2>
+    </div>
+
+    <section>
+        <h2>Nossos Serviços</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Automação Comercial</h3>
+                <p>Facilitamos a gestão do seu negócio com sistemas de automação comercial robustos e fáceis de usar.</p>
+            </div>
+            <div class="service">
+                <h3>Suporte Técnico</h3>
+                <p>Equipe especializada para ajudar a resolver quaisquer problemas técnicos com agilidade.</p>
+            </div>
+            <div class="service">
+                <h3>Consultoria em TI</h3>
+                <p>Oferecemos consultoria completa para otimizar a infraestrutura de tecnologia da sua empresa.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OnTech Sistemas. Todos os direitos reservados. <a href="#">Política de Privacidade</a></p>
+    </footer>
+</body>
+</html>
