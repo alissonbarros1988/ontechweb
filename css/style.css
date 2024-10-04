@@ -30,8 +30,8 @@ header h1 {
 
 nav {
     margin: 0;
-            padding: 0;
-            width: 100%;
+    padding: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center; /* Faz com que a imagem fique à esquerda e o menu à direita */
@@ -40,7 +40,8 @@ nav {
 }
 
 nav .logo {
-    height: 25px; /* Exemplo de tamanho da logo */
+    height: 30px; /* Exemplo de tamanho da logo */
+    width: 100%;
 }
 
 nav ul {
@@ -133,4 +134,11 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
+.contato {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(to right, #13293d, rgb(43, 143, 168));
+    color: #ffffff;
+}
