@@ -2,8 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    width: 100%;
+    background-color: #ffffff;
     color: #333;
+    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+}
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel {
+    margin: 0 auto;
 }
 
 header {
@@ -19,6 +29,9 @@ header h1 {
 }
 
 nav {
+    margin: 0;
+            padding: 0;
+            width: 100%;
     display: flex;
     align-items: center;
     justify-content: center; /* Faz com que a imagem fique à esquerda e o menu à direita */
@@ -38,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px; /* Espaçamento entre os itens do menu */
+    margin-left: 10px; /* Espaçamento entre os itens do menu */
 }
 
 nav ul li a {
