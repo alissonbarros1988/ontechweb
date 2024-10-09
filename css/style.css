@@ -67,8 +67,10 @@ nav ul li a:hover {
 }
 
 .hero {
+   
+    
     background: linear-gradient(to right, #13293d, #193651);
-    height: 500px;
+  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,23 +78,23 @@ nav ul li a:hover {
     
 }
 
-.hero h2 {
+.hero h1 {
     font-weight: bold;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #f4f4f4;
-    padding: 20px;
+    
 }
-.hero h2 p {
+.hero p {
     font-weight: lighter;
     text-align: left;
     font-size: 1rem;
     color: #f4f4f4;
-    padding: 20px;
+    
 }
 
 .hero img{
-    height: 70%;
+    height: 100%;
     width: 50%;
 }
 
